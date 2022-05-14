@@ -5,5 +5,7 @@ public class Main {
         Bicycle bicycle = new Bicycle("Bianchi","Hijau");
         System.out.println(" [Info Sepeda] ");
         bicycle.printData();
+        System.out.println("-----------------");
+        bicycle.run(10);
     }
 }
