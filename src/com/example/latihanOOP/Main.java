@@ -12,5 +12,12 @@ public class Main {
         System.out.print("Masukkan jarak yang akan ditempuh: ");
         int bicycleDistance = scanner.nextInt();
         bicycle.run(bicycleDistance);
+
+        System.out.println("=================");
+
+        Car car = new Car("Ferrari", "Merah");
+        System.out.println("【Info Mobil】");
+        car.printData();
+
     }
 }
