@@ -2,9 +2,11 @@ package com.example.latihanOOP;
 
 public class Bicycle {
     private String name;
+    private String color;
 
-    Bicycle(String name) {
+    Bicycle(String name, String color) {
         this.name = name;
+        this.color = color;
     }
 
     public String getName() {
@@ -16,7 +18,7 @@ public class Bicycle {
     }
 
     public void printData() {
-        System.out.println(" [Info Sepeda] ");
         System.out.println("Nama: "+ this.getName());
+        System.out.println("Color: "+ this.color);
     }
 }
