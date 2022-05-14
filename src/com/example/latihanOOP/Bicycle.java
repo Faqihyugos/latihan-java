@@ -14,4 +14,9 @@ public class Bicycle {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void printData() {
+        System.out.println(" [Info Sepeda] ");
+        System.out.println("Nama: "+ this.getName());
+    }
 }
